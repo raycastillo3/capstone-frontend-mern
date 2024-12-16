@@ -1,0 +1,23 @@
+.category-container {
+    /* display: grid;
+    grid-template-columns: repeat(4, 0fr); */
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    padding: 48px;
+    padding-bottom: 180px;
+}
+
+@media (max-width: 768px) {
+    .category-container {
+        grid-template-columns: repeat(2, 0fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .category-container {
+        grid-template-columns: 1fr;
+    }
+}

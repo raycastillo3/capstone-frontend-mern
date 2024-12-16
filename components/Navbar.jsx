@@ -21,7 +21,7 @@ export function Navbar() {
 
   return (
     <div className={`navbar ${showNavbar ? "show" : "hide"}`}>
-      <img src="../public/snackoverflow.png" alt="logo" />
+      <img src="../snackoverflow.png" alt="logo" />
     </div>
   );
 }

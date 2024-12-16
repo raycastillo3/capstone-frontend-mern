@@ -1,0 +1,19 @@
+.category-card {
+    height: 160px;
+    width: 25%;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+    border: 1.5px solid #dbdada;
+
+}
+
+.category-card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  }
