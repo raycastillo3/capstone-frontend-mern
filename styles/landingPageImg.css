@@ -1,0 +1,26 @@
+.landing-image {
+    /* border-bottom: 5px solid black; */
+    /* box-shadow: 10px 5px 5px rgba(0,0,0,0.7); */
+    filter: brightness(1.09); 
+    height: 929px;
+    width: 100%;
+    /* width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: block; */
+}
+
+.landing-page-container {
+    position: relative;
+}
+.landing-page-title {
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-family: sans-serif;
+    margin: 0, 0, 40px;
+    font-weight: 300px;
+    font-size: 23px;
+}

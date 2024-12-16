@@ -1,3 +1,4 @@
+import "../styles/navbar.css"
 import { useState, useEffect } from "react";
 
 export function Navbar() {

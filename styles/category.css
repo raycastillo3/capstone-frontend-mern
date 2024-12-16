@@ -3,7 +3,7 @@
     grid-template-columns: repeat(4, 0fr); */
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 30px;
     /* justify-content: space-between; */
     flex-wrap: wrap;
     padding: 48px;
