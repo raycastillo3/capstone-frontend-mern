@@ -1,348 +1,178 @@
-[{
-  "restaurantId": 1,
-  "restaurantName": "Cocoonhead",
-  "rating": 2.8,
-  "restaurantImage": "http://dummyimage.com/154x129.png/dddddd/000000",
-  "restaurantSpecialty": "Family Meals , Indian , Bakery",
-  "streetAddress": "831 Dapin Avenue",
-  "postalCode": "V2N 0J2",
-  "deliveryFee": 7.4,
-  "deliveryTime": 10,
-  "city": "Ottawa",
-  "province": "ON",
-  "address": "831 Dapin Avenue, Ottawa, ON V2N 0J2",
-  "freeDelivery": false,
-  "isCustomerFavourite": false,
-  "meal": [{
-      "name": "platea dictumst aliquam",
-      "price": 21.29,
-      "category": "Category 6",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.png/ff4444/ffffff"
-  }, {
-      "name": "orci nullam molestie",
-      "price": 17.37,
-      "category": "Category 4",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.bmp/5fa2dd/ffffff"
-  }, {
-      "name": "vel nulla eget",
-      "price": 10.89,
-      "category": "Category 5",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.jpg/dddddd/000000"
-  }, {
-      "name": "eget tincidunt",
-      "price": 5.09,
-      "category": "Category 4",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.png/ff4444/ffffff"
-  }, {
-      "name": "nullam molestie nibh",
-      "price": 21.71,
-      "category": "Category 5",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.jpg/5fa2dd/ffffff"
-  }, {
-      "name": "nascetur ridiculus",
-      "price": 25.74,
-      "category": "Category 1",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.jpg/dddddd/000000"
-  }, {
-      "name": "eget tincidunt",
-      "price": 5.09,
-      "category": "Category 4",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.png/ff4444/ffffff"
-  }, {
-      "name": "purus",
-      "price": 16.05,
-      "category": "Category 6",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.bmp/ff4444/ffffff"
-  }, {
-      "name": "ante ipsum",
-      "price": 29.27,
-      "category": "Category 5",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.png/5fa2dd/ffffff"
-  }, {
-      "name": "curabitur",
-      "price": 23.9,
-      "category": "Category 1",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.png/cc0000/ffffff"
-  }, {
-      "name": "hydrogen hydroxide",
-      "price": 4.86,
-      "category": "Category 1",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.png/cc0000/ffffff"
-  }, {
-      "name": "integer",
-      "price": 32.2,
-      "category": "Category 2",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.bmp/dddddd/000000"
-  }, {
-      "name": "curabitur in",
-      "price": 25.44,
-      "category": "Category 6",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.bmp/5fa2dd/ffffff"
-  }, {
-      "name": "rhoncus aliquam",
-      "price": 26.28,
-      "category": "Category 3",
-      "isSoldOut": "true",
-      "image": "http://dummyimage.com/150x150.jpg/5fa2dd/ffffff"
-  }, {
-      "name": "urna",
-      "price": 20.76,
-      "category": "Category 1",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.png/cc0000/ffffff"
-  }, {
-      "name": "nisl",
-      "price": 36.74,
-      "category": "Category 1",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.bmp/5fa2dd/ffffff"
-  }, {
-      "name": "quis",
-      "price": 3.57,
-      "category": "Category 2",
-      "isSoldOut": "true",
-      "image": "http://dummyimage.com/150x150.bmp/dddddd/000000"
-  }, {
-      "name": "suspendisse",
-      "price": 19.88,
-      "category": "Category 3",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.bmp/ff4444/ffffff"
-  }, {
-      "name": "nascetur ridiculus",
-      "price": 25.74,
-      "category": "Category 1",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.jpg/dddddd/000000"
-  }, {
-      "name": "nisl",
-      "price": 36.74,
-      "category": "Category 1",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.bmp/5fa2dd/ffffff"
-  }, {
-      "name": "nulla ut erat",
-      "price": 12.34,
-      "category": "Category 1",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.jpg/5fa2dd/ffffff"
-  }, {
-      "name": "rutrum at",
-      "price": 39.59,
-      "category": "Category 2",
-      "isSoldOut": "true",
-      "image": "http://dummyimage.com/150x150.png/dddddd/000000"
-  }, {
-      "name": "orci nullam molestie",
-      "price": 17.37,
-      "category": "Category 4",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.bmp/5fa2dd/ffffff"
-  }, {
-      "name": "ipsum integer a",
-      "price": 38.9,
-      "category": "Category 1",
-      "isSoldOut": "true",
-      "image": "http://dummyimage.com/150x150.png/dddddd/000000"
-  }, {
-      "name": "in",
-      "price": 3.43,
-      "category": "Category 4",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.bmp/cc0000/ffffff"
-  }, {
-      "name": "ultrices mattis",
-      "price": 36.3,
-      "category": "Category 6",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.png/5fa2dd/ffffff"
-  }, {
-      "name": "libero",
-      "price": 21.52,
-      "category": "Category 1",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.bmp/dddddd/000000"
-  }, {
-      "name": "purus",
-      "price": 16.05,
-      "category": "Category 6",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.bmp/ff4444/ffffff"
-  }, {
-      "name": "venenatis",
-      "price": 19.59,
-      "category": "Category 6",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.jpg/5fa2dd/ffffff"
-  }, {
-      "name": "adipiscing elit",
-      "price": 2.1,
-      "category": "Category 1",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.png/ff4444/ffffff"
-  }, {
-      "name": "quis",
-      "price": 3.57,
-      "category": "Category 2",
-      "isSoldOut": "true",
-      "image": "http://dummyimage.com/150x150.bmp/dddddd/000000"
-  }, {
-      "name": "orci nullam molestie",
-      "price": 17.37,
-      "category": "Category 4",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.bmp/5fa2dd/ffffff"
-  }, {
-      "name": "sit amet",
-      "price": 13.43,
-      "category": "Category 4",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.jpg/5fa2dd/ffffff"
-  }, {
-      "name": "ultrices",
-      "price": 13.27,
-      "category": "Category 6",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.bmp/dddddd/000000"
-  }, {
-      "name": "morbi",
-      "price": 23.37,
-      "category": "Category 1",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.jpg/dddddd/000000"
-  }, {
-      "name": "rhoncus aliquam",
-      "price": 32.66,
-      "category": "Category 1",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.bmp/cc0000/ffffff"
-  }, {
-      "name": "eu nibh quisque",
-      "price": 15.78,
-      "category": "Category 6",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.bmp/ff4444/ffffff"
-  }, {
-      "name": "curabitur in",
-      "price": 25.44,
-      "category": "Category 6",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.bmp/5fa2dd/ffffff"
-  }, {
-      "name": "suspendisse",
-      "price": 19.88,
-      "category": "Category 3",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.bmp/ff4444/ffffff"
-  }, {
-      "name": "libero",
-      "price": 21.52,
-      "category": "Category 1",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.bmp/dddddd/000000"
-  }, {
-      "name": "nulla ac",
-      "price": 35.58,
-      "category": "Category 6",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.bmp/5fa2dd/ffffff"
-  }, {
-      "name": "lacus at",
-      "price": 15.75,
-      "category": "Category 2",
-      "isSoldOut": "true",
-      "image": "http://dummyimage.com/150x150.bmp/ff4444/ffffff"
-  }]
-},
-{
-  "restaurantId": 2,
-  "restaurantName": "Pacific Dicranella Moss",
-  "rating": 2.5,
-  "restaurantImage": "http://dummyimage.com/228x182.bmp/dddddd/000000",
-  "restaurantSpecialty": "Allergy Friendly , Bakery , Noodles",
-  "streetAddress": "055 High Crossing Crossing",
-  "postalCode": "Y7L 4Y8",
-  "deliveryFee": 4.63,
-  "deliveryTime": 15,
-  "city": "Ottawa",
-  "province": "ON",
-  "address": "055 High Crossing Crossing, Ottawa, ON Y7L 4Y8",
-  "freeDelivery": true,
-  "isCustomerFavourite": true,
-  "meal": [{
-      "name": "duis at",
-      "price": 2.62,
-      "category": "Category 2",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.png/dddddd/000000"
-  }, {
-      "name": "et",
-      "price": 4.02,
-      "category": "Category 4",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.jpg/ff4444/ffffff"
-  }, {
-      "name": "nulla sed",
-      "price": 4.44,
-      "category": "Category 1",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.bmp/5fa2dd/ffffff"
-  }, {
-      "name": "eget tincidunt",
-      "price": 5.09,
-      "category": "Category 4",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.png/ff4444/ffffff"
-  }, {
-      "name": "ultrices mattis",
-      "price": 36.3,
-      "category": "Category 6",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.png/5fa2dd/ffffff"
-  }, {
-      "name": "venenatis tristique",
-      "price": 11.8,
-      "category": "Category 2",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.jpg/cc0000/ffffff"
-  }, {
-      "name": "adipiscing",
-      "price": 13.71,
-      "category": "Category 1",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.jpg/cc0000/ffffff"
-  }, {
-      "name": "integer aliquet",
-      "price": 39.62,
-      "category": "Category 5",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.jpg/cc0000/ffffff"
-  }, {
-      "name": "in felis",
-      "price": 6.97,
-      "category": "Category 4",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.jpg/cc0000/ffffff"
-  }, {
-      "name": "convallis",
-      "price": 21.61,
-      "category": "Category 4",
-      "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.jpg/dddddd/000000"
-  }, {
+[
+    {
+      "restaurantId": 1,
+      "restaurantName": "Cocoonhead",
+      "rating": 2.8,
+      "restaurantImage": "https://tb-static.uber.com/prod/image-proc/processed_images/40261745fed11a5c1e3cf1a2598323cf/9ba9ffab5f885fc3dac87838b3357014.webp",
+      "restaurantSpecialty": "Family Meals , Indian , Bakery",
+      "streetAddress": "831 Dapin Avenue",
+      "postalCode": "V2N 0J2",
+      "deliveryFee": 7.4,
+      "deliveryTime": 10,
+      "city": "Ottawa",
+      "province": "ON",
+      "address": "831 Dapin Avenue, Ottawa, ON V2N 0J2",
+      "freeDelivery": false,
+      "isCustomerFavourite": false,
+      "meal": [
+        {
+          "name": "platea dictumst aliquam",
+          "price": 21.29,
+          "category": "Category 6",
+          "isSoldOut": "false",
+          "image": "https://d1ralsognjng37.cloudfront.net/028932d2-8d93-41a5-8796-2b74a7ea1822.jpeg"
+        },
+        {
+          "name": "orci nullam molestie",
+          "price": 17.37,
+          "category": "Category 4",
+          "isSoldOut": "false",
+          "image": "https://d1ralsognjng37.cloudfront.net/a22dc334-f814-415d-935f-0c8e0a0af8b0.jpeg"
+        },
+        {
+          "name": "luctus et ultrices",
+          "price": 19.61,
+          "category": "Category 3",
+          "isSoldOut": "false",
+          "image": "https://d1ralsognjng37.cloudfront.net/1c1b3198-a56e-461e-8906-aead94f21ba4.jpeg"
+        },
+        {
+          "name": "in hac habitasse",
+          "price": 44.44,
+          "category": "Category 5",
+          "isSoldOut": "false",
+          "image": "https://d1ralsognjng37.cloudfront.net/3b0a4d53-48d3-4227-bd7a-a1b6ba743bea.jpeg"
+        },
+        {
+          "name": "nulla elit ac",
+          "price": 41.94,
+          "category": "Category 3",
+          "isSoldOut": "false",
+          "image": "https://tb-static.uber.com/prod/image-proc/processed_images/8220e2123e968808ef4e4908d59f7200/3ac2b39ad528f8c8c5dc77c59abb683d.jpeg"
+        },
+        {
+          "name": "suspendisse potenti cras",
+          "price": 49.68,
+          "category": "Category 6",
+          "isSoldOut": "false",
+          "image": "https://tb-static.uber.com/prod/image-proc/processed_images/7c8de9248810ea97ae0d0e6b60927521/16bb0a3ab8ea98cfe8906135767f7bf4.jpeg"
+        },
+        {
+          "name": "sapien non mi",
+          "price": 12.44,
+          "category": "Category 2",
+          "isSoldOut": "false",
+          "image": "https://tb-static.uber.com/prod/image-proc/processed_images/c967078954e0824f75742bed5a62e85f/9ba9ffab5f885fc3dac87838b3357014.jpeg"
+        },
+        {
+          "name": "amet consectetuer adipiscing",
+          "price": 27.46,
+          "category": "Category 1",
+          "isSoldOut": "false",
+          "image": "https://tb-static.uber.com/prod/image-proc/processed_images/f68e9f92313352ac5b4c9eb9db087111/3ac2b39ad528f8c8c5dc77c59abb683d.jpeg"
+        },
+        {
+          "name": "in felis eu",
+          "price": 32.19,
+          "category": "Category 5",
+          "isSoldOut": "false",
+          "image": "https://d1ralsognjng37.cloudfront.net/4e2a25f2-5fc5-4a7b-869e-b92659c874bf"
+        },
+        {
+          "name": "nulla facilisi cras",
+          "price": 16.91,
+          "category": "Category 3",
+          "isSoldOut": "false",
+          "image": "https://d1ralsognjng37.cloudfront.net/9fa22b71-db8a-4be9-8461-0f6439bf17ac.jpeg"
+        }
+      ]
+    },
+    {
+      "restaurantId": 2,
+      "restaurantName": "Pacific Dicranella Moss",
+      "rating": 2.5,
+      "restaurantImage": "https://d1ralsognjng37.cloudfront.net/0b8fc892-04a6-4ca3-998d-02e753e230c6.jpeg",
+      "restaurantSpecialty": "Allergy Friendly , Bakery , Noodles",
+      "streetAddress": "055 High Crossing Crossing",
+      "postalCode": "Y7L 4Y8",
+      "deliveryFee": 4.63,
+      "deliveryTime": 15,
+      "city": "Ottawa",
+      "province": "ON",
+      "address": "055 High Crossing Crossing, Ottawa, ON Y7L 4Y8",
+      "freeDelivery": true,
+      "isCustomerFavourite": true,
+      "meal": [
+        {
+          "name": "duis at",
+          "price": 2.62,
+          "category": "Category 2",
+          "isSoldOut": "false",
+          "image": "https://duyt4h9nfnj50.cloudfront.net/resized/1528911206513-w2880-44.jpg"
+        },
+        {
+          "name": "et",
+          "price": 4.02,
+          "category": "Category 4",
+          "isSoldOut": "false",
+          "image": "https://d1ralsognjng37.cloudfront.net/4efb1153-828d-457f-bec9-544018f917fb.webp"
+        },
+        {
+          "name": "ultrices posuere cubilia",
+          "price": 44.22,
+          "category": "Category 3",
+          "isSoldOut": "false",
+          "image": "https://d1ralsognjng37.cloudfront.net/fd8419f2-789c-4959-986e-8e2dcbbeb34d"
+        },
+        {
+          "name": "nulla tellus in",
+          "price": 26.87,
+          "category": "Category 6",
+          "isSoldOut": "false",
+          "image": "https://d1ralsognjng37.cloudfront.net/4762e7a6-0d12-46da-add9-de5b13a7b089.jpeg"
+        },
+        {
+          "name": "vestibulum ante ipsum",
+          "price": 15.76,
+          "category": "Category 4",
+          "isSoldOut": "false",
+          "image": "https://tb-static.uber.com/prod/image-proc/processed_images/2fe968548ca3a33ebc31dd29517011fe/3ac2b39ad528f8c8c5dc77c59abb683d.jpeg"
+        },
+        {
+          "name": "in hac habitasse",
+          "price": 32.17,
+          "category": "Category 3",
+          "isSoldOut": "false",
+          "image": "https://tb-static.uber.com/prod/image-proc/processed_images/c63d052b73170f4d672bf961e731467a/3ac2b39ad528f8c8c5dc77c59abb683d.jpeg"
+        },
+        {
+          "name": "ipsum primis in",
+          "price": 33.7,
+          "category": "Category 1",
+          "isSoldOut": "false",
+          "image": "https://tb-static.uber.com/prod/image-proc/processed_images/dc01951e2e0bfb50082ed903e1f848fc/3ac2b39ad528f8c8c5dc77c59abb683d.jpeg"
+        },
+        {
+          "name": "nulla elit ac",
+          "price": 41.91,
+          "category": "Category 3",
+          "isSoldOut": "false",
+          "image": "https://d1ralsognjng37.cloudfront.net/f10fe04e-0036-41d0-8619-858165d49479.jpeg"
+        },
+        {
+          "name": "nulla facilisi cras",
+          "price": 40.38,
+          "category": "Category 5",
+          "isSoldOut": "false",
+          "image": "https://tb-static.uber.com/prod/image-proc/processed_images/b8fa7a839f1fa4dbd3ef9011375245a1/3ac2b39ad528f8c8c5dc77c59abb683d.jpeg"
+        },
+        {
+          "name": "amet diam in",
+          "price": 45.07,
+          "category": "Category 2",
+          "isSoldOut": "false",
+          "image": "https://d1ralsognjng37.cloudfront.net/e49579f2-20c2-4f0d-9a16-6945cfa93edd.jpeg"
+        },{
       "name": "lacus at",
       "price": 15.75,
       "category": "Category 2",
@@ -718,13 +548,13 @@
       "price": 13.27,
       "category": "Category 6",
       "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.bmp/dddddd/000000"
+      "image": "https://d1ralsognjng37.cloudfront.net/9fa22b71-db8a-4be9-8461-0f6439bf17ac.jpeg"
   }, {
       "name": "eu",
       "price": 3.81,
       "category": "Category 5",
       "isSoldOut": "false",
-      "image": "http://dummyimage.com/150x150.png/cc0000/ffffff"
+      "image": "https://d1ralsognjng37.cloudfront.net/fd8419f2-789c-4959-986e-8e2dcbbeb34d"
   }, {
       "name": "duis at",
       "price": 2.62,

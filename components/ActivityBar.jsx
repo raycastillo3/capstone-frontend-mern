@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "../styles/activityBar.css";
 
-export default function ActivityBar() {
+export function ActivityBar() {
   const [selectedTab, setSelectedTab] = useState("nearby");
 
   const handleTabClick = (tabName) => {
