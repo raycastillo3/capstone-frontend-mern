@@ -15,8 +15,7 @@ export function SearchPage ({ restaurants, updateSearchText }) {
     search.addDocuments(restaurants);
 
     let location = useLocation();
-    const searchTerm = location.state.searchTerm;
-
+    const searchTerm = location?.state?.searchTerm;
     const searchRes = search.search(searchTerm);
 
     useEffect(() => {
