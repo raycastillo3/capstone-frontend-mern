@@ -21,8 +21,12 @@ export function Navbar() {
   }, [prevScrollPos]);
 
   return (
-    <div className={`navbar ${showNavbar ? "show" : "hide"}`}>
-      <img src="../snackoverflow.png" alt="logo" />
-    </div>
+      <nav className={`navbar ${showNavbar ? "show" : "hide"}`}>
+          <div className="logo"> <img src="../snackoverflow.png" alt="logo" /></div>
+          <div className="nav-buttons">
+            <button className="nav-btn log-in">Log in</button>
+            <button className="nav-btn sign-up">Sign up</button>
+          </div>
+        </nav>
   );
 }

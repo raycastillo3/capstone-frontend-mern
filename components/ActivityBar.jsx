@@ -2,12 +2,12 @@ import { useState } from "react";
 import "../styles/activityBar.css";
 
 export default function ActivityBar() {
-  const [selectedTab, setSelectedTab] = useState(null);
+  const [selectedTab, setSelectedTab] = useState("nearby");
 
   const handleTabClick = (tabName) => {
     setSelectedTab(tabName);
   };
-
+  
   return (
     <div className="activity-tabnav">
       <div

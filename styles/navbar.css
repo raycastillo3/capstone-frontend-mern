@@ -9,17 +9,51 @@
     z-index: 1000;
 }
 
-/* .navbar.hide {
-    transform: translateY(-100%);
-} */
-
 .navbar.show {
     background-color: #ffff;
     transform: translateY(0);
 }
 
+.navbar.show .nav-btn.log-in {
+    color: white;
+    background-color: #000;
+}
+
 .navbar img {
     padding: 5px;
-    height: 30px;
+    height: 50px;
     width: 100px;
 }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-buttons .nav-btn {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .nav-buttons .nav-btn.log-in {
+    color: #000;
+    background-color: white;
+    border-radius: 20px;
+    padding: 8px 12px;
+  }
+  .nav-buttons .nav-btn.sign-up {
+    color: white;
+    background-color: #000;
+    border-radius: 20px;
+    padding: 8px 12px;
+  }

@@ -1,0 +1,64 @@
+.discover-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    width: 100%;
+
+}
+
+.section-reverse {
+    flex-direction: row-reverse;
+
+}
+
+.content {
+    max-width: 40%;
+}
+
+.content h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.content h3 {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.content p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.btn {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #c0392b;
+}
+
+.image-container {
+    max-width: 50%;
+}
+
+.image-container img {
+    width: 100%;
+}

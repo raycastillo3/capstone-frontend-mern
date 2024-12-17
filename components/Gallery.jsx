@@ -28,10 +28,6 @@ export function Gallery() {
       id: 6,
       content: "This impressive This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like."
     },
-    {
-      id: 7,
-      content: "This impressive This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like."
-    },
   ]
     return (
       <>
