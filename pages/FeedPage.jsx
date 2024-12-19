@@ -6,6 +6,8 @@ import {Favourite} from "../components/Favourite";
 import {RestaurantSkeletonCardDeck} from "../components/RestaurantSkeletonCardDeck";
 import { FeedNavbar } from '../components/FeedNavbar';
 import { useState } from 'react';
+import {FeedHeader } from "../components/FeedHeader"; 
+
 
 export function Feedpage ({ restaurants, isLoading}) {
 
@@ -19,7 +21,7 @@ export function Feedpage ({ restaurants, isLoading}) {
         <>
             {isLoading && <RestaurantSkeletonCardDeck />}
             <FeedNavbar searchText={searchText} updateSearchText={updateSearchText} />
-            {/* <HeaderBody /> */}
+            <FeedHeader />
             <FoodCategory updateSearchText={updateSearchText} />
             <NarrowBy restaurants={restaurants} />
             <ZeroDollarDeliveryFee restaurants={restaurants} />

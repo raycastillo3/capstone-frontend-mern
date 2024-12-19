@@ -1,5 +1,4 @@
 import { Modal } from "react-bootstrap";
-import ottawaMap from "../src/assets/ottawaMap.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMapMarkerAlt, faClock } from '@fortawesome/free-solid-svg-icons'
 
@@ -7,7 +6,7 @@ export function InfoModal ({ restaurant, handleModalOpen, modalIsOpen }) {
     return (
         <>
             <Modal centered keyboard show={modalIsOpen} onHide={handleModalOpen}>
-                <Modal.Header style={{ height: "30vh", backgroundImage: `url(${ottawaMap})`, backgroundSize: "cover" }} closeButton className="border-0">
+                <Modal.Header style={{ height: "30vh", backgroundImage: `url(${"https://shorturl.at/fnENS"})`, backgroundSize: "cover" }} closeButton className="border-0">
                     <Modal.Title className="bg-white px-2 my-auto mx-auto rounded-lg font-weight-normal">
                         {restaurant.restaurantName}
                     </Modal.Title>

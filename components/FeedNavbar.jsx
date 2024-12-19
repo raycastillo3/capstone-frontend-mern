@@ -1,6 +1,6 @@
 import { Navbar, Nav, NavDropdown, FormControl, Col, InputGroup, ButtonGroup, ToggleButton } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
-import { useState } from "react";
+// import { useState } from "react";
 
 export function FeedNavbar ({ searchText, updateSearchText }) {
   

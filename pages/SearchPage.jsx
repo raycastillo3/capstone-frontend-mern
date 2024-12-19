@@ -5,10 +5,11 @@ import {RestaurantCard} from "../components/RestaurantCard"
 import { useLocation } from "react-router-dom";
 import {AllRestaurants} from '../components/AllRestaurants';
 import * as JsSearch from 'js-search';
+import { FeedNavbar } from '../components/FeedNavbar';
 
 
 export function SearchPage ({ restaurants, updateSearchText }) {
-
+    
     let search = new JsSearch.Search('restaurantId');
     search.addIndex('restaurantName');
     search.addIndex('restaurantSpecialty');
@@ -23,10 +24,10 @@ export function SearchPage ({ restaurants, updateSearchText }) {
     });
 
     return (
+<>
         <Container>
             {searchRes.length === 0 &&
                 <>
-                    <p className="ml-3 lead">We couldn't find anything matching {`"${searchTerm}"`}. Browse all restaurants below.</p>
                     <AllRestaurants restaurants={restaurants} />
                 </>
             }
@@ -38,5 +39,6 @@ export function SearchPage ({ restaurants, updateSearchText }) {
                 }
             </ResponsiveCardDeck>}
         </Container>
+</>
     )
 }
