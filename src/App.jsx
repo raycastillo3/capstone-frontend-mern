@@ -23,7 +23,7 @@ function App() {
   const fetchData = async () => {
     setIsLoading(true);
     try {
-      const response = await axios.get('https://snackoverflow-server.onrender.com');
+      const response = await axios.get('https://snackoverflow-server.onrender.com/restaurants');
       // console.log(response.data);
       setData(response.data);
     } catch (err) {
