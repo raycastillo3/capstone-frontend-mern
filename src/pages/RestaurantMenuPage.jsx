@@ -8,7 +8,7 @@ import RestaurantMenuItemModal from "../components/RestaurantMenuItemModal";
 
 export function RestaurantMenuPage ({ restaurant }) {
 
-    const navItems = ["Category 1", "Category 2", "Category 3", "Category 4", "Category 5", "Category 6"]
+    const navItems = ["Protein", "Grains", "Fruits", "Vegetables", "Dairy", "Juices"]
     const headingIds = navItems.map(item => getMenuUrl(item))
 
     useEffect(() => {
