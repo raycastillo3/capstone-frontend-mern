@@ -1,7 +1,11 @@
 import "../styles/category.css";
 import { CategoryCard } from "./CategoryCard";
+import { useNavigate } from "react-router-dom";
+
 
 export function Category() {
+  const navigate = useNavigate();
+
   const categories = [
     {
       id: 1,
@@ -44,17 +48,20 @@ export function Category() {
       image: "https://s3-media0.fl.yelpcdn.com/assets/public/40x40_more_v2.yji-961fdce2fd036f85fb01.svg"
     },
   ];
-  // console.log(categories);
+
+ 
   return (
     <>
       <h2 className="title">Categories</h2>
       <div className="category-container">
         {categories.map((category) => (
-          <CategoryCard
+         
+            <CategoryCard
             key={category.id}
             categoryImage={category.image}
             categoryName={category.categoryName}
           />
+
         ))}
       </div>
     </>

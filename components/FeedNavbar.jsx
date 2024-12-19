@@ -19,16 +19,11 @@ export function FeedNavbar ({ searchText, updateSearchText }) {
                         <NavDropdown.Item href="#action/3.4">Schedule for later</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
-                <Nav>
+            </Navbar.Collapse>
+            <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="mr-auto">
                     <NavDropdown title="Navigate" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="#action/1">Orders</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/2">Favourites</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3">Wallet</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/4">Help</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/5">Account</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/6">Promotions</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/7">Eats Pass</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/8">Sign out</NavDropdown.Item>
+                        <Nav.Link href="/">Home</Nav.Link>
                     </NavDropdown>
                 </Nav>
             </Navbar.Collapse>
@@ -58,7 +53,7 @@ function SearchBar ({ searchText, updateSearchText }) {
         <InputGroup className="col-xs-6 col-md-6">
             <FormControl
                 type="input"
-                onKeyPress={e => {
+                onKeyUp={e => {
                     if (e.key === "Enter") {
                         onSubmit(searchText)
                     }

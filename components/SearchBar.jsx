@@ -1,6 +1,12 @@
 import '../styles/searchBar.css'
+import { useNavigate } from 'react-router-dom';
 
 export function SearchBar () {
+  const navigate = useNavigate();
+  
+  const handleClick = () => {
+    navigate('/feed'); 
+  };
     return (
         <div className="search-bar">
         <input
@@ -8,7 +14,7 @@ export function SearchBar () {
           placeholder="Enter delivery address"
           className="search-input"
         />
-        <button className="search-btn">Search</button>
+        <button onClick={handleClick} className="search-btn">Search</button>
       </div>
     )
 }

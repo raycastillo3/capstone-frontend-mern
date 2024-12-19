@@ -5,9 +5,9 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 export function FeedHeader() {
     return (
         <>
-            <Container fluid style={{ backgroundColor: "#122329", padding: "20px 0" }}>
+            <Container fluid style={{ backgroundColor: "#ffff", padding: "20px 0" }}>
                 <Row className="justify-content-center">
-                    <Col xs={12} md={4} lg={3} className="my-auto text-center text-md-start px-4" style={{ color: "#FFFFFF" }}>
+                    <Col xs={12} md={4} lg={3} className="my-auto text-center text-md-start px-4" style={{ color: "#000" }}>
                         <h1>Crave it? Get it.</h1>
                         <p>Search for a favourite restaurant, cuisine, or dish.</p>
                     </Col>

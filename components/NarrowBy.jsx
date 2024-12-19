@@ -26,7 +26,7 @@ function Sort ({ restaurants }) {
                 <label htmlFor="most-popular">Most popular</label>
                 <input id="most-popular" type="radio" name="sort by" /><br></br>
 
-                <Link to="/sort-by-rating" onClick={() => console.log("madagascar")}>
+                <Link to="/sort-by-rating">
                     <label htmlFor="rating">Rating</label>
                     <input id="rating" type="radio" name="sort by" />
                 </Link>

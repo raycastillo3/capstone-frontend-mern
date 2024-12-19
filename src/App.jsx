@@ -3,30 +3,48 @@ import './App.css';
 import { Routes, Route } from "react-router-dom";
 import { RestaurantMenuPage } from "../pages/RestaurantMenuPage";
 import { Feedpage } from '../pages/FeedPage';
-import ubereatsData from "../mock_data/restaurants.json";
+
 import { getMenuUrl } from "../utils/Functions";
 import { SortByCardDeckPage } from '../pages/SortByCardDeckPage';
 import { SearchPage } from "../pages/SearchPage";
 import { LandingPage } from '../pages/LandingPage';
 import {Footer} from "../components/Footer";
+import axios from 'axios';
 
 function App() {
-  const [restaurants, setRestaurants] = useState([]);
+  const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [searchText, setSearchText] = useState("");
+  const [error, setError] = useState(null);
 
   const updateSearchText = (str) => {
     setSearchText(str);
   };
-
-  useEffect(() => {
+  const fetchData = async () => {
     setIsLoading(true);
-    const timer = setTimeout(() => {
-      setRestaurants(ubereatsData);
+    try {
+      const response = await axios.get('http://localhost:5001/restaurants/');
+      // console.log(response.data);
+      setData(response.data);
+    } catch (err) {
+      setError(err);
+    } finally {
       setIsLoading(false);
-    }, 0);
-    return () => clearTimeout(timer);
+    }
+  }
+  useEffect(() => {
+    fetchData()
   }, []);
+
+  console.log(data);
+  if (isLoading) {
+    return <div>Loading...</div>;
+  }
+
+  if (error) {
+    return <div>Error: {error.message}</div>;
+  }
+
 
   return (
     <div className="App">
@@ -36,7 +54,7 @@ function App() {
           path="/"
           element={
             <LandingPage
-              restaurants={restaurants}
+              restaurants={data}
               isLoading={isLoading}
             />
           }
@@ -45,7 +63,7 @@ function App() {
           path="/feed"
           element={
             <Feedpage
-              restaurants={restaurants}
+              restaurants={data}
               isLoading={isLoading}
               updateSearchText={updateSearchText}
             />
@@ -53,7 +71,7 @@ function App() {
         />
 
         {/* Dynamic Restaurant Menu Routes */}
-        {restaurants.map((restaurant) => (
+        {data.map((restaurant) => (
           <Route
             key={restaurant.restaurantId}
             path={`/${getMenuUrl(restaurant.restaurantName)}`}
@@ -65,7 +83,7 @@ function App() {
         <Route
           path="/sort-by-rating"
           element={
-            <SortByCardDeckPage restaurants={restaurants} />
+            <SortByCardDeckPage restaurants={data} />
           }
         />
 
@@ -74,7 +92,7 @@ function App() {
           path="/search"
           element={
             <SearchPage
-              restaurants={restaurants}
+              restaurants={data}
               searchText={searchText}
               updateSearchText={updateSearchText}
             />
