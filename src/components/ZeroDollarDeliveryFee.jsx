@@ -1,5 +1,5 @@
 import { Col, Row, Button } from "react-bootstrap";
-import zeroFee from "../src/assets/zeroFee.svg"
+import zeroFee from "../assets/zeroFee.svg"
 import {ThreeColumnCarousel} from "./ThreeColumnCarousel";
 import Countdown, { zeroPad } from 'react-countdown';
 import { pillBtnStyle } from "../styles/Styles"

@@ -1,14 +1,14 @@
 import { useState, useEffect } from 'react';
 import './App.css';
 import { Routes, Route } from "react-router-dom";
-import { RestaurantMenuPage } from "../pages/RestaurantMenuPage";
-import { Feedpage } from '../pages/FeedPage';
+import { RestaurantMenuPage } from "./pages/RestaurantMenuPage";
+import { Feedpage } from './pages/FeedPage';
 
-import { getMenuUrl } from "../utils/Functions";
-import { SortByCardDeckPage } from '../pages/SortByCardDeckPage';
-import { SearchPage } from "../pages/SearchPage";
-import { LandingPage } from '../pages/LandingPage';
-import {Footer} from "../components/Footer";
+import { getMenuUrl } from "./utils/Functions";
+import { SortByCardDeckPage } from './pages/SortByCardDeckPage';
+import { SearchPage } from "./pages/SearchPage";
+import { LandingPage } from './pages/LandingPage';
+import {Footer} from "./components/Footer";
 import axios from 'axios';
 
 function App() {
